@@ -1,9 +1,3 @@
-/**
- * A function that inserts a node as the left-child of another node
- * 
- * Author: Denaton Agbikossi
- */
-
 #include <stdlib.h>
 #include "binary_trees.h"
 
@@ -13,6 +7,8 @@
  * @value: Value to store in the new node
  *
  * Return: Pointer to the created node, or NULL on failure, or is parent is NULL
+ * 
+ * Author: Denaton Agbikossi
  */
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 {
